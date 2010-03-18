@@ -1,0 +1,254 @@
+/!\ FAILSAFE /!\  Thu Mar 18 21:33:52 +0000 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:490:in `new_constants_in'
+    C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:154:in `require'
+    IronRuby.Libraries:0:in `each'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+/!\ FAILSAFE /!\  Thu Mar 18 21:34:01 +0000 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:490:in `new_constants_in'
+    C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:154:in `require'
+    IronRuby.Libraries:0:in `each'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+/!\ FAILSAFE /!\  Thu Mar 18 21:34:04 +0000 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:490:in `new_constants_in'
+    C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:154:in `require'
+    IronRuby.Libraries:0:in `each'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+/!\ FAILSAFE /!\  Thu Mar 18 21:34:38 +0000 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:490:in `new_constants_in'
+    C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:154:in `require'
+    IronRuby.Libraries:0:in `each'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+/!\ FAILSAFE /!\  Thu Mar 18 21:35:46 +0000 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:490:in `new_constants_in'
+    C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:154:in `require'
+    IronRuby.Libraries:0:in `each'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+/!\ FAILSAFE /!\  Thu Mar 18 21:35:54 +0000 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:490:in `new_constants_in'
+    C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:154:in `require'
+    IronRuby.Libraries:0:in `each'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-03-18 21:39:22) [GET]
+  [4;36;1mSQL (522.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 1192ms (View: 187, DB: 522) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-03-18 21:39:24) [GET]
+  [4;35;1mSQL (2.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 324ms (View: 48, DB: 2) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing PostController#index (for 127.0.0.1 at 2010-03-18 21:40:09) [GET]
+
+ActionView::MissingTemplate (Missing template post/index.erb in view path app/views):
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostController#index (for 127.0.0.1 at 2010-03-18 21:40:24) [GET]
+
+ActionView::MissingTemplate (Missing template post/index.erb in view path app/views):
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-18 21:40:39) [GET]
+
+ActionController::RoutingError (No route matches "/posts/index" with {:method=>:get}):
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-18 21:44:23) [GET]
+
+ActionController::RoutingError (No route matches "/posts/index" with {:method=>:get}):
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostController#index (for 127.0.0.1 at 2010-03-18 21:44:28) [GET]
+Rendering post/index
+Completed in 317ms (View: 248, DB: 0) | 200 OK [http://localhost/post/index]
+
+
+Processing PostController#index (for 127.0.0.1 at 2010-03-18 21:47:21) [GET]
+Rendering post/index
+Completed in 754ms (View: 559, DB: 0) | 200 OK [http://localhost/post/index]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-18 21:47:29) [GET]
+
+ActionController::RoutingError (No route matches "/post/index.json" with {:method=>:get}):
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-18 21:47:40) [GET]
+
+ActionController::RoutingError (No route matches "/post/index.js" with {:method=>:get}):
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-18 21:48:02) [GET]
+
+ActionController::RoutingError (No route matches "/post/index/.js" with {:method=>:get}):
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostController#index to js (for 127.0.0.1 at 2010-03-18 21:48:10) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 58ms (View: 29, DB: 0) | 406 Not Acceptable [http://localhost/post/index/1.js]
+
+
+Processing PostController#index to js (for 127.0.0.1 at 2010-03-18 21:49:17) [GET]
+Completed in 295ms (View: 172, DB: 0) | 406 Not Acceptable [http://localhost/post/index.js]
+
+
+Processing PostController#index to json (for 127.0.0.1 at 2010-03-18 21:49:23) [GET]
+Completed in 78ms (View: 50, DB: 0) | 200 OK [http://localhost/post/index.json]
+
+
+Processing PostController#index to js (for 127.0.0.1 at 2010-03-18 21:52:00) [GET]
+Rendering post/index
+Completed in 471ms (View: 357, DB: 0) | 200 OK [http://localhost/post/index.js]
+
+
+Processing PostController#index to js (for 127.0.0.1 at 2010-03-18 21:52:18) [GET]
+Rendering post/index
+Completed in 127ms (View: 107, DB: 0) | 200 OK [http://localhost/post/index.js]
+
+
+Processing PostController#index to js (for 127.0.0.1 at 2010-03-18 21:54:29) [GET]
+Rendering post/index
+Completed in 653ms (View: 387, DB: 0) | 200 OK [http://localhost/post/index.js]
+
+
+Processing PostController#index to js (for 127.0.0.1 at 2010-03-18 21:54:41) [GET]
+Rendering post/index
+Completed in 143ms (View: 103, DB: 0) | 200 OK [http://localhost/post/index.js]
+
+
+Processing PostController#index to js (for 127.0.0.1 at 2010-03-18 21:54:50) [GET]
+Rendering post/index
+Completed in 63ms (View: 31, DB: 0) | 200 OK [http://localhost/post/index.js]
+
+
+Processing PostController#index to js (for 127.0.0.1 at 2010-03-18 21:55:33) [GET]
+Rendering post/index
+Completed in 39ms (View: 19, DB: 0) | 200 OK [http://localhost/post/index.js]
+
+
+Processing PostController#index to json (for 127.0.0.1 at 2010-03-18 21:56:19) [GET]
+Completed in 57ms (View: 37, DB: 0) | 200 OK [http://localhost/post/index.json]
+
+
+Processing PostController#index to xml (for 127.0.0.1 at 2010-03-18 21:56:25) [GET]
+Completed in 61ms (View: 43, DB: 0) | 200 OK [http://localhost/post/index.xml]
