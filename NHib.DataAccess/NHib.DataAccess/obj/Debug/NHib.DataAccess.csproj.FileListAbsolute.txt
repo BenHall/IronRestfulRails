@@ -1,0 +1,28 @@
+E:\Users\Ben Hall\Documents\DDDS2\NHib.DataAccess\NHib.DataAccess\bin\Debug\Post.hbm.xml
+E:\Users\Ben Hall\Documents\DDDS2\NHib.DataAccess\NHib.DataAccess\bin\Debug\NHibernate.dll
+E:\Users\Ben Hall\Documents\DDDS2\NHib.DataAccess\NHib.DataAccess\bin\Debug\Iesi.Collections.dll
+E:\Users\Ben Hall\Documents\DDDS2\NHib.DataAccess\NHib.DataAccess\bin\Debug\log4net.dll
+E:\Users\Ben Hall\Documents\DDDS2\NHib.DataAccess\NHib.DataAccess\bin\Debug\Castle.Core.dll
+E:\Users\Ben Hall\Documents\DDDS2\NHib.DataAccess\NHib.DataAccess\bin\Debug\Castle.DynamicProxy2.dll
+E:\Users\Ben Hall\Documents\DDDS2\NHib.DataAccess\NHib.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+E:\Users\Ben Hall\Documents\DDDS2\NHib.DataAccess\NHib.DataAccess\bin\Debug\NHib.DataAccess.Contracts.dll
+E:\Users\Ben Hall\Documents\DDDS2\NHib.DataAccess\NHib.DataAccess\bin\Debug\NHib.DataAccess.Contracts.pdb
+E:\Users\Ben Hall\Documents\DDDS2\NHib.DataAccess\NHib.DataAccess\bin\Debug\NHib.DataAccess.dll
+E:\Users\Ben Hall\Documents\DDDS2\NHib.DataAccess\NHib.DataAccess\bin\Debug\NHib.DataAccess.pdb
+E:\Users\Ben Hall\Documents\DDDS2\NHib.DataAccess\NHib.DataAccess\obj\Debug\NHib.DataAccess.dll
+E:\Users\Ben Hall\Documents\DDDS2\NHib.DataAccess\NHib.DataAccess\obj\Debug\NHib.DataAccess.pdb
+E:\Users\Ben Hall\Documents\DDDS2\NHib.DataAccess\NHib.DataAccess\bin\Debug\nhibernate.xml
+D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\bin\Debug\NHib.DataAccess.Contracts.dll
+D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\bin\Debug\NHib.DataAccess.Contracts.pdb
+D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\bin\Debug\nhibernate.xml
+D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\bin\Debug\Post.hbm.xml
+D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\bin\Debug\NHib.DataAccess.dll
+D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\bin\Debug\NHib.DataAccess.pdb
+D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\bin\Debug\NHibernate.dll
+D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\bin\Debug\Iesi.Collections.dll
+D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\bin\Debug\log4net.dll
+D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\bin\Debug\Castle.Core.dll
+D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\bin\Debug\Castle.DynamicProxy2.dll
+D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\obj\Debug\NHib.DataAccess.dll
+D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\obj\Debug\NHib.DataAccess.pdb
