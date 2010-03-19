@@ -24,10 +24,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="posts_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="posts_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/railsapp/app/controllers/posts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="17" selection-start="308" selection-end="308" vertical-scroll-proportion="0.2572759">
+            <state line="26" column="4" selection-start="470" selection-end="470" vertical-scroll-proportion="-18.416666">
               <folding />
             </state>
           </provider>
@@ -36,7 +36,16 @@
       <file leaf-file-name="index.xml.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/railsapp/app/views/posts/index.xml.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="28" selection-start="47" selection-end="47" vertical-scroll-proportion="-0.7083333">
+            <state line="6" column="0" selection-start="108" selection-end="108" vertical-scroll-proportion="-2.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/railsapp/app/views/posts/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="28" selection-start="251" selection-end="251" vertical-scroll-proportion="0.16287425">
               <folding />
             </state>
           </provider>
@@ -66,11 +75,11 @@
         <option value="$PROJECT_DIR$/app/controllers/post_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/post/index.js.erb" />
         <option value="$PROJECT_DIR$/app/views/post/index.html.erb" />
-        <option value="$PROJECT_DIR$/railsapp/app/views/posts/index.html.erb" />
         <option value="D:/Users/Ben Hall/Documents/VistaSquad/IronRuby/IronRubyOnRails/app/controllers/posts_controller.rb" />
         <option value="$PROJECT_DIR$/railsapp/config/routes.rb" />
-        <option value="$PROJECT_DIR$/railsapp/app/views/posts/index.xml.erb" />
         <option value="$PROJECT_DIR$/railsapp/app/controllers/posts_controller.rb" />
+        <option value="$PROJECT_DIR$/railsapp/app/views/posts/index.xml.erb" />
+        <option value="$PROJECT_DIR$/railsapp/app/views/posts/index.html.erb" />
       </list>
     </option>
   </component>
@@ -505,13 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/railsapp/app/views/posts/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="-0.7083333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/railsapp/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="35" selection-start="1942" selection-end="1942" vertical-scroll-proportion="-29.75">
@@ -533,16 +535,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/railsapp/app/views/posts/index.xml.erb">
+    <entry file="file://$PROJECT_DIR$/railsapp/app/controllers/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="28" selection-start="47" selection-end="47" vertical-scroll-proportion="-0.7083333">
+        <state line="26" column="4" selection-start="470" selection-end="470" vertical-scroll-proportion="-18.416666">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/railsapp/app/controllers/posts_controller.rb">
+    <entry file="file://$PROJECT_DIR$/railsapp/app/views/posts/index.xml.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="308" selection-end="308" vertical-scroll-proportion="0.2572759">
+        <state line="6" column="0" selection-start="108" selection-end="108" vertical-scroll-proportion="-2.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/railsapp/app/views/posts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="251" selection-end="251" vertical-scroll-proportion="0.16287425">
           <folding />
         </state>
       </provider>

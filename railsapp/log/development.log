@@ -286,3 +286,18 @@ Completed in 99ms (View: 33, DB: 0) | 200 OK [http://localhost/posts/index.xml]
 Processing PostsController#index to xml (for 127.0.0.1 at 2010-03-18 23:22:45) [GET]
 Rendering posts/index
 Completed in 4710ms (View: 339, DB: 0) | 200 OK [http://localhost/posts/index.xml]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-03-19 00:17:37) [GET]
+Rendering posts/index
+Completed in 4717ms (View: 327, DB: 0) | 200 OK [http://localhost/posts/index]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-03-19 00:21:24) [GET]
+Rendering posts/index
+Completed in 318ms (View: 192, DB: 0) | 200 OK [http://localhost/posts/index]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-03-19 00:22:57) [GET]
+Rendering posts/index
+Completed in 257ms (View: 187, DB: 0) | 200 OK [http://localhost/posts/index]

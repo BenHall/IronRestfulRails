@@ -1,5 +1,7 @@
 <posts>
+  <% @posts.each do |p| %>
     <post>
-        <title><%=@posts[0].title%></title>
+        <title><%= p.title %></title>
     </post>
+  <% end %>
 </posts>
