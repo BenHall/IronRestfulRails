@@ -301,3 +301,58 @@ Completed in 318ms (View: 192, DB: 0) | 200 OK [http://localhost/posts/index]
 Processing PostsController#index (for 127.0.0.1 at 2010-03-19 00:22:57) [GET]
 Rendering posts/index
 Completed in 257ms (View: 187, DB: 0) | 200 OK [http://localhost/posts/index]
+
+
+Processing PostsController#index to json (for 127.0.0.1 at 2010-03-20 19:13:29) [GET]
+Completed in 4179ms (View: 229, DB: 0) | 200 OK [http://localhost/posts/index.json]
+
+
+Processing PostsController#index to json (for 127.0.0.1 at 2010-03-20 19:15:27) [GET]
+
+NHibernate::InvalidProxyTypeException (The following types may not be used as proxies:
+NHib.DataAccess.Post: method ToJson should be virtual):
+  app/controllers/posts_controller.rb:10:in `index'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (510.7ms)
+Rendered rescues/_request_and_response (143.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index to json (for 127.0.0.1 at 2010-03-20 19:18:46) [GET]
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  C:2:in `send'
+  C:2:in `encode'
+  IronRuby.Libraries:0:in `<Map>b__3'
+  IronRuby.Libraries:0:in `each'
+  IronRuby.Libraries:0:in `Each'
+  C:2:in `__send__'
+  C:2:in `encode'
+  C:2:in `__send__'
+  C:2:in `encode'
+  app/controllers/posts_controller.rb:16:in `index'
+  app/controllers/posts_controller.rb:13:in `index'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (737.3ms)
+Rendered rescues/_request_and_response (124.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index to json (for 127.0.0.1 at 2010-03-20 19:22:00) [GET]
+Completed in 4495ms (View: 658, DB: 0) | 200 OK [http://localhost/posts/index.json]

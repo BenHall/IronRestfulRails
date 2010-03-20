@@ -24,10 +24,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="posts_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="posts_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/railsapp/app/controllers/posts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="4" selection-start="470" selection-end="470" vertical-scroll-proportion="-18.416666">
+            <state line="18" column="60" selection-start="383" selection-end="383" vertical-scroll-proportion="0.3073341">
               <folding />
             </state>
           </provider>
@@ -42,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/railsapp/app/views/posts/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="28" selection-start="251" selection-end="251" vertical-scroll-proportion="0.16287425">
+            <state line="8" column="28" selection-start="251" selection-end="251" vertical-scroll-proportion="-2.8333333">
               <folding />
             </state>
           </provider>
@@ -535,9 +535,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/railsapp/app/controllers/posts_controller.rb">
+    <entry file="file://$PROJECT_DIR$/railsapp/app/views/posts/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="4" selection-start="470" selection-end="470" vertical-scroll-proportion="-18.416666">
+        <state line="8" column="28" selection-start="251" selection-end="251" vertical-scroll-proportion="-2.8333333">
           <folding />
         </state>
       </provider>
@@ -549,9 +549,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/railsapp/app/views/posts/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/railsapp/app/controllers/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="251" selection-end="251" vertical-scroll-proportion="0.16287425">
+        <state line="18" column="60" selection-start="383" selection-end="383" vertical-scroll-proportion="0.3073341">
           <folding />
         </state>
       </provider>

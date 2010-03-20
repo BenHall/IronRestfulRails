@@ -26,3 +26,4 @@ D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\bin\Debug\Cast
 D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\obj\Debug\ResolveAssemblyReference.cache
 D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\obj\Debug\NHib.DataAccess.dll
 D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\obj\Debug\NHib.DataAccess.pdb
+D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\bin\Debug\Newtonsoft.Json.dll

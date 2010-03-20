@@ -42,11 +42,4 @@ namespace NHib.DataAccess
             session.Close();
         }
     }
-
-    public class Post
-    {
-        public virtual int PostID { get; set; }
-        public virtual string Title { get; set; }
-    }
-
 }
