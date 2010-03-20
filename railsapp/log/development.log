@@ -356,3 +356,686 @@ Rendering rescues/layout (internal_server_error)
 
 Processing PostsController#index to json (for 127.0.0.1 at 2010-03-20 19:22:00) [GET]
 Completed in 4495ms (View: 658, DB: 0) | 200 OK [http://localhost/posts/index.json]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-03-20 20:34:47) [GET]
+Rendering posts/index
+Completed in 4708ms (View: 444, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#1 (for 127.0.0.1 at 2010-03-20 20:35:06) [GET]
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, destroy, edit, index, new, show, and update):
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#1 (for 127.0.0.1 at 2010-03-20 20:36:42) [GET]
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, destroy, edit, index, new, show, and update):
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#1 (for 127.0.0.1 at 2010-03-20 20:37:15) [GET]
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, destroy, edit, index, new, show, and update):
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-03-20 20:38:55) [GET]
+  Parameters: {"id"=>"1"}
+
+NHibernate::QueryException (Type mismatch in NHibernate.Criterion.SimpleExpression: PostID expected type System.Int32, actual type IronRuby.Builtins.MutableString):
+  NHibernate:0:in `GetColumnNamesUsingPropertyName'
+  NHibernate:0:in `GetColumnNamesForSimpleExpression'
+  NHibernate:0:in `ToSqlString'
+  NHibernate:0:in `GetWhereCondition'
+  NHibernate:0:in `.ctor'
+  NHibernate:0:in `.ctor'
+  NHibernate:0:in `List'
+  NHibernate:0:in `List'
+  NHibernate:0:in `List'
+  NHibernate:0:in `UniqueResult'
+  NHibernate:0:in `UniqueResult'
+  D:\SourceControl\IronRestfulRails\NHib.DataAccess\NHib.DataAccess\PostRepository.cs:31:in `GetPost'
+  app/controllers/posts_controller.rb:23:in `show'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (578.1ms)
+Rendered rescues/_request_and_response (131.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-03-20 20:40:53) [GET]
+  Parameters: {"id"=>"1"}
+Rendering posts/show
+
+ActionView::TemplateError (edit_post_url failed to generate from {:controller=>"posts", :action=>"edit", :id=>NHib.DataAccess.Post}, expected: {:controller=>"posts", :action=>"edit"}, diff: {:id=>NHib.DataAccess.Post}) on line #8 of app/views/posts/show.html.erb:
+5: 
+6: 
+7: <%= link_to 'Edit', edit_post_path(@post) %> |
+8: <%= link_to 'Back', posts_path %>
+
+    (eval):16:in `edit_post_path'
+    app/views/posts/show.html.erb:8
+    app/controllers/posts_controller.rb:25:in `show'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (756.8ms)
+Rendered rescues/_request_and_response (117.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-03-20 20:41:47) [GET]
+  Parameters: {"id"=>"1"}
+Rendering posts/show
+Completed in 388ms (View: 298, DB: 0) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-03-20 20:42:03) [GET]
+  Parameters: {"id"=>"1"}
+Rendering posts/show
+Completed in 205ms (View: 130, DB: 0) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-03-20 20:42:10) [GET]
+  Parameters: {"id"=>"5972"}
+Rendering posts/edit
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #4 of app/views/posts/edit.html.erb:
+1: <h1>Editing post</h1>
+2: 
+3: <% form_for(@post) do |f| %>
+4:   <%= f.error_messages %>
+5: 
+6:   <p>
+7:     <%= f.label :title %><br />
+
+    app/views/posts/edit.html.erb:4
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (460.0ms)
+Rendered rescues/_request_and_response (7.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-03-20 20:42:16) [GET]
+  Parameters: {"id"=>"1"}
+Rendering posts/edit
+
+ActionView::TemplateError (undefined method `n_hib_data_access_post_path' for #<ActionView::Base:0x0003626 @assigns={}, @assigns_added=true, @controller=#<PostsController:0x0003624 @real_format=nil, @before_filter_chain_aborted=false, @performed_redirect=false, @performed_render=false, @_request=#<ActionController::Request:0x000361e @env={"GATEWAY_INTERFACE"=>"CGI/1.1", "PATH_INFO"=>"/posts/1/edit", "QUERY_STRING"=>"", "REMOTE_ADDR"=>"127.0.0.1", "REMOTE_HOST"=>"activate.adobe.com", "rack.version"=>[1, 0], "REQUEST_METHOD"=>"GET", "REQUEST_URI"=>"http://localhost:3000/posts/1/edit", "SCRIPT_NAME"=>"", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"WEBrick/1.3.1 (Ruby/1.8.6/2009-03-31)", "HTTP_HOST"=>"localhost:3000", "HTTP_CONNECTION"=>"keep-alive", "HTTP_USER_AGENT"=>"Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/4.1.249.1036 Safari/532.5", "HTTP_ACCEPT"=>"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5", "HTTP_ACCEPT_ENCODING"=>"gzip,deflate,sdch", "HTTP_ACCEPT_LANGUAGE"=>"en-GB,en-US;q=0.8,en;q=0.6", "HTTP_ACCEPT_CHARSET"=>"ISO-8859-1,utf-8;q=0.7,*;q=0.3", "rack.input"=>IronRuby.StandardLibrary.StringIO.StringIO, "rack.errors"=>#<IO:0x0003640>, "rack.multithread"=>false, "rack.multiprocess"=>false, "rack.run_once"=>false, "rack.url_scheme"=>"http", "HTTP_VERSION"=>"HTTP/1.1", "REQUEST_PATH"=>"/", "rack.session"=>{:session_id=>"af71bb2ea660d929bbb34e4283ada884"}, "rack.session.options"=>{:key=>"_session_id", :domain=>nil, :path=>"/", :expire_after=>nil, :httponly=>true, :id=>"af71bb2ea660d929bbb34e4283ada884"}, "action_controller.request.path_parameters"=>{"controller"=>"posts", "action"=>"edit", "id"=>"1"}, "action_controller.rescue.request"=>..., "action_controller.rescue.response"=>#<ActionController::Response:0x0003620 @status=200, @header={"Cache-Control"=>"no-cache", "Content-Type"=>"text/html"}, @writer=#<Proc:0x0003648@C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/response.rb:46>, @block=nil, @session={:session_id=>"af71bb2ea660d929bbb34e4283ada884"}, @body=["", []], @assigns=[], @request=..., @template=..., @redirected_to=nil>, "action_controller.request.request_parameters"=>{}, "rack.request.query_string"=>"", "rack.request.query_hash"=>{}, "action_controller.request.query_parameters"=>{}}, @content_type=nil, @parameters={"controller"=>"posts", "action"=>"edit", "id"=>"1"}, @request_method=:get>, @_params={"controller"=>"posts", "action"=>"edit", "id"=>"1"}, @_response=#<ActionController::Response:0x0003620 @status=200, @header={"Cache-Control"=>"no-cache", "Content-Type"=>"text/html"}, @writer=#<Proc:0x0003648@C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/response.rb:46>, @block=nil, @session={:session_id=>"af71bb2ea660d929bbb34e4283ada884"}, @body=["", []], @assigns=[], @request=#<ActionController::Request:0x000361e @env={"GATEWAY_INTERFACE"=>"CGI/1.1", "PATH_INFO"=>"/posts/1/edit", "QUERY_STRING"=>"", "REMOTE_ADDR"=>"127.0.0.1", "REMOTE_HOST"=>"activate.adobe.com", "rack.version"=>[1, 0], "REQUEST_METHOD"=>"GET", "REQUEST_URI"=>"http://localhost:3000/posts/1/edit", "SCRIPT_NAME"=>"", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"WEBrick/1.3.1 (Ruby/1.8.6/2009-03-31)", "HTTP_HOST"=>"localhost:3000", "HTTP_CONNECTION"=>"keep-alive", "HTTP_USER_AGENT"=>"Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/4.1.249.1036 Safari/532.5", "HTTP_ACCEPT"=>"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5", "HTTP_ACCEPT_ENCODING"=>"gzip,deflate,sdch", "HTTP_ACCEPT_LANGUAGE"=>"en-GB,en-US;q=0.8,en;q=0.6", "HTTP_ACCEPT_CHARSET"=>"ISO-8859-1,utf-8;q=0.7,*;q=0.3", "rack.input"=>IronRuby.StandardLibrary.StringIO.StringIO, "rack.errors"=>#<IO:0x0003640>, "rack.multithread"=>false, "rack.multiprocess"=>false, "rack.run_once"=>false, "rack.url_scheme"=>"http", "HTTP_VERSION"=>"HTTP/1.1", "REQUEST_PATH"=>"/", "rack.session"=>{:session_id=>"af71bb2ea660d929bbb34e4283ada884"}, "rack.session.options"=>{:key=>"_session_id", :domain=>nil, :path=>"/", :expire_after=>nil, :httponly=>true, :id=>"af71bb2ea660d929bbb34e4283ada884"}, "action_controller.request.path_parameters"=>{"controller"=>"posts", "action"=>"edit", "id"=>"1"}, "action_controller.rescue.request"=>..., "action_controller.rescue.response"=>..., "action_controller.request.request_parameters"=>{}, "rack.request.query_string"=>"", "rack.request.query_hash"=>{}, "action_controller.request.query_parameters"=>{}}, @content_type=nil, @parameters={"controller"=>"posts", "action"=>"edit", "id"=>"1"}, @request_method=:get>, @template=..., @redirected_to=nil>, @_session={:session_id=>"af71bb2ea660d929bbb34e4283ada884"}, @template=..., @_headers={"Cache-Control"=>"no-cache", "Content-Type"=>"text/html"}, @url=#<ActionController::UrlRewriter:0x000362a @request=#<ActionController::Request:0x000361e @env={"GATEWAY_INTERFACE"=>"CGI/1.1", "PATH_INFO"=>"/posts/1/edit", "QUERY_STRING"=>"", "REMOTE_ADDR"=>"127.0.0.1", "REMOTE_HOST"=>"activate.adobe.com", "rack.version"=>[1, 0], "REQUEST_METHOD"=>"GET", "REQUEST_URI"=>"http://localhost:3000/posts/1/edit", "SCRIPT_NAME"=>"", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"WEBrick/1.3.1 (Ruby/1.8.6/2009-03-31)", "HTTP_HOST"=>"localhost:3000", "HTTP_CONNECTION"=>"keep-alive", "HTTP_USER_AGENT"=>"Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/4.1.249.1036 Safari/532.5", "HTTP_ACCEPT"=>"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5", "HTTP_ACCEPT_ENCODING"=>"gzip,deflate,sdch", "HTTP_ACCEPT_LANGUAGE"=>"en-GB,en-US;q=0.8,en;q=0.6", "HTTP_ACCEPT_CHARSET"=>"ISO-8859-1,utf-8;q=0.7,*;q=0.3", "rack.input"=>IronRuby.StandardLibrary.StringIO.StringIO, "rack.errors"=>#<IO:0x0003640>, "rack.multithread"=>false, "rack.multiprocess"=>false, "rack.run_once"=>false, "rack.url_scheme"=>"http", "HTTP_VERSION"=>"HTTP/1.1", "REQUEST_PATH"=>"/", "rack.session"=>{:session_id=>"af71bb2ea660d929bbb34e4283ada884"}, "rack.session.options"=>{:key=>"_session_id", :domain=>nil, :path=>"/", :expire_after=>nil, :httponly=>true, :id=>"af71bb2ea660d929bbb34e4283ada884"}, "action_controller.request.path_parameters"=>{"controller"=>"posts", "action"=>"edit", "id"=>"1"}, "action_controller.rescue.request"=>..., "action_controller.rescue.response"=>#<ActionController::Response:0x0003620 @status=200, @header={"Cache-Control"=>"no-cache", "Content-Type"=>"text/html"}, @writer=#<Proc:0x0003648@C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/response.rb:46>, @block=nil, @session={:session_id=>"af71bb2ea660d929bbb34e4283ada884"}, @body=["", []], @assigns=[], @request=..., @template=..., @redirected_to=nil>, "action_controller.request.request_parameters"=>{}, "rack.request.query_string"=>"", "rack.request.query_hash"=>{}, "action_controller.request.query_parameters"=>{}}, @content_type=nil, @parameters={"controller"=>"posts", "action"=>"edit", "id"=>"1"}, @request_method=:get>, @parameters={"controller"=>"posts", "action"=>"edit", "id"=>"1"}>, @action_name="edit", @request_origin="127.0.0.1 at 2010-03-20 20:42:16", @post=NHib.DataAccess.Post>, @helpers=#<ActionView::Base::ProxyModule:0x0003628 @receiver=...>, @view_paths=["D:/SourceControl/IronRestfulRails/railsapp/app/views"], @_first_render=#<ActionView::ReloadableTemplate:0x0002426 @template_path="posts/edit.html.erb", @load_path="D:/SourceControl/IronRestfulRails/railsapp/app/views", @base_path="posts", @name="edit", @locale=nil, @format="html", @extension="erb", @_memoized_path=["posts/edit.html.erb"], @_memoized_path_without_extension=["posts/edit.html"], @_memoized_filename=["D:/SourceControl/IronRestfulRails/railsapp/app/views/posts/edit.html.erb"], @_memoized_relative_path=["app/views/posts/edit.html.erb"], @_memoized_method_segment=["app47views47posts47edit46html46erb"], @_memoized_method_name_without_locals=["_run_erb_app47views47posts47edit46html46erb"], @previously_last_modified=Sat Mar 20 20:02:33 +0000 2010, @_memoized_path_without_format_and_extension=["posts/edit"], @_memoized_handler=[ActionView::TemplateHandlers::ERB], @_memoized_source=["<h1>Editing post</h1>\n\n<% form_for(@post) do |f| %>\n  <%= f.error_messages %>\n\n  <p>\n    <%= f.label :title %><br />\n    <%= f.text_field :title %>\n  </p>\n  <p>\n    <%= f.submit 'Update' %>\n  </p>\n<% end %>\n\n<%= link_to 'Show', @post %> |\n<%= link_to 'Back', posts_path %>"], @_memoized_mime_type=[#<Mime::Type:0x0001f8a @symbol=:html, @synonyms=["application/xhtml+xml"], @string="text/html">]>, @_current_render=#<ActionView::ReloadableTemplate:0x0002426 @template_path="posts/edit.html.erb", @load_path="D:/SourceControl/IronRestfulRails/railsapp/app/views", @base_path="posts", @name="edit", @locale=nil, @format="html", @extension="erb", @_memoized_path=["posts/edit.html.erb"], @_memoized_path_without_extension=["posts/edit.html"], @_memoized_filename=["D:/SourceControl/IronRestfulRails/railsapp/app/views/posts/edit.html.erb"], @_memoized_relative_path=["app/views/posts/edit.html.erb"], @_memoized_method_segment=["app47views47posts47edit46html46erb"], @_memoized_method_name_without_locals=["_run_erb_app47views47posts47edit46html46erb"], @previously_last_modified=Sat Mar 20 20:02:33 +0000 2010, @_memoized_path_without_format_and_extension=["posts/edit"], @_memoized_handler=[ActionView::TemplateHandlers::ERB], @_memoized_source=["<h1>Editing post</h1>\n\n<% form_for(@post) do |f| %>\n  <%= f.error_messages %>\n\n  <p>\n    <%= f.label :title %><br />\n    <%= f.text_field :title %>\n  </p>\n  <p>\n    <%= f.submit 'Update' %>\n  </p>\n<% end %>\n\n<%= link_to 'Show', @post %> |\n<%= link_to 'Back', posts_path %>"], @_memoized_mime_type=[#<Mime::Type:0x0001f8a @symbol=:html, @synonyms=["application/xhtml+xml"], @string="text/html">]>, @template_format=:html, @real_format=nil, @_request=#<ActionController::Request:0x000361e @env={"GATEWAY_INTERFACE"=>"CGI/1.1", "PATH_INFO"=>"/posts/1/edit", "QUERY_STRING"=>"", "REMOTE_ADDR"=>"127.0.0.1", "REMOTE_HOST"=>"activate.adobe.com", "rack.version"=>[1, 0], "REQUEST_METHOD"=>"GET", "REQUEST_URI"=>"http://localhost:3000/posts/1/edit", "SCRIPT_NAME"=>"", "SERVER_NAME"=>"localhost", "SERVER_PORT"=>"3000", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"WEBrick/1.3.1 (Ruby/1.8.6/2009-03-31)", "HTTP_HOST"=>"localhost:3000", "HTTP_CONNECTION"=>"keep-alive", "HTTP_USER_AGENT"=>"Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/4.1.249.1036 Safari/532.5", "HTTP_ACCEPT"=>"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5", "HTTP_ACCEPT_ENCODING"=>"gzip,deflate,sdch", "HTTP_ACCEPT_LANGUAGE"=>"en-GB,en-US;q=0.8,en;q=0.6", "HTTP_ACCEPT_CHARSET"=>"ISO-8859-1,utf-8;q=0.7,*;q=0.3", "rack.input"=>IronRuby.StandardLibrary.StringIO.StringIO, "rack.errors"=>#<IO:0x0003640>, "rack.multithread"=>false, "rack.multiprocess"=>false, "rack.run_once"=>false, "rack.url_scheme"=>"http", "HTTP_VERSION"=>"HTTP/1.1", "REQUEST_PATH"=>"/", "rack.session"=>{:session_id=>"af71bb2ea660d929bbb34e4283ada884"}, "rack.session.options"=>{:key=>"_session_id", :domain=>nil, :path=>"/", :expire_after=>nil, :httponly=>true, :id=>"af71bb2ea660d929bbb34e4283ada884"}, "action_controller.request.path_parameters"=>{"controller"=>"posts", "action"=>"edit", "id"=>"1"}, "action_controller.rescue.request"=>..., "action_controller.rescue.response"=>#<ActionController::Response:0x0003620 @status=200, @header={"Cache-Control"=>"no-cache", "Content-Type"=>"text/html"}, @writer=#<Proc:0x0003648@C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/response.rb:46>, @block=nil, @session={:session_id=>"af71bb2ea660d929bbb34e4283ada884"}, @body=["", []], @assigns=[], @request=..., @template=..., @redirected_to=nil>, "action_controller.request.request_parameters"=>{}, "rack.request.query_string"=>"", "rack.request.query_hash"=>{}, "action_controller.request.query_parameters"=>{}}, @content_type=nil, @parameters={"controller"=>"posts", "action"=>"edit", "id"=>"1"}, @request_method=:get>, @template=..., @post=NHib.DataAccess.Post, @output_buffer="<h1>Editing post</h1>\n\n">) on line #4 of app/views/posts/edit.html.erb:
+1: <h1>Editing post</h1>
+2: 
+3: <% form_for(@post) do |f| %>
+4:   <%= f.error_messages %>
+5: 
+6:   <p>
+7:     <%= f.label :title %><br />
+
+    app/views/posts/edit.html.erb:4
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (455.1ms)
+Rendered rescues/_request_and_response (3.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-03-20 20:42:26) [GET]
+  Parameters: {"id"=>"5972"}
+Rendering posts/edit
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #4 of app/views/posts/edit.html.erb:
+1: <h1>Editing post</h1>
+2: 
+3: <% form_for(@post) do |f| %>
+4:   <%= f.error_messages %>
+5: 
+6:   <p>
+7:     <%= f.label :title %><br />
+
+    app/views/posts/edit.html.erb:4
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (455.1ms)
+Rendered rescues/_request_and_response (2.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-03-20 20:42:28) [GET]
+  Parameters: {"id"=>"1"}
+Rendering posts/show
+
+ActionView::TemplateError (undefined method `post_id' for NHib.DataAccess.Post:NHib::DataAccess::Post) on line #8 of app/views/posts/show.html.erb:
+5: 
+6: 
+7: <%= link_to 'Edit', edit_post_path(@post.post_id) %> |
+8: <%= link_to 'Back', posts_path %>
+
+    app/views/posts/show.html.erb:8
+    app/controllers/posts_controller.rb:25:in `show'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (491.2ms)
+Rendered rescues/_request_and_response (7.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-03-20 20:42:32) [GET]
+  Parameters: {"id"=>"1"}
+Rendering posts/show
+
+ActionView::TemplateError (undefined method `post_id' for NHib.DataAccess.Post:NHib::DataAccess::Post) on line #8 of app/views/posts/show.html.erb:
+5: 
+6: 
+7: <%= link_to 'Edit', edit_post_path(@post.post_id) %> |
+8: <%= link_to 'Back', posts_path %>
+
+    app/views/posts/show.html.erb:8
+    app/controllers/posts_controller.rb:25:in `show'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (461.9ms)
+Rendered rescues/_request_and_response (3.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-03-20 20:42:40) [GET]
+  Parameters: {"id"=>"1"}
+Rendering posts/show
+Completed in 222ms (View: 123, DB: 0) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-03-20 20:42:44) [GET]
+  Parameters: {"id"=>"1"}
+Rendering posts/edit
+
+ActionView::TemplateError (undefined method `n_hib_data_access_post_path' for #<ActionView::Base:0x00052c6>) on line #4 of app/views/posts/edit.html.erb:
+1: <h1>Editing post</h1>
+2: 
+3: <% form_for(@post) do |f| %>
+4:   <%= f.error_messages %>
+5: 
+6:   <p>
+7:     <%= f.label :title %><br />
+
+    app/views/posts/edit.html.erb:4
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (518.6ms)
+Rendered rescues/_request_and_response (7.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-03-20 20:43:50) [GET]
+  Parameters: {"id"=>"1"}
+Rendering posts/edit
+
+ActionView::TemplateError (undefined method `fixnum_path' for #<ActionView::Base:0x00059a2>) on line #4 of app/views/posts/edit.html.erb:
+1: <h1>Editing post</h1>
+2: 
+3: <% form_for(@post.PostID) do |f| %>
+4:   <%= f.error_messages %>
+5:   <p>
+6:     <%= f.label :PostID %><br />
+7:     <%= f.PostID %>
+
+    app/views/posts/edit.html.erb:4
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (484.4ms)
+Rendered rescues/_request_and_response (20.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-03-20 20:45:24) [GET]
+  Parameters: {"id"=>"1"}
+Rendering posts/edit
+ERROR: compiling _run_erb_app47views47posts47edit46html46erb RAISED syntax error, unexpected ENSURE, expecting END
+Function body:           def _run_erb_app47views47posts47edit46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Editing post</h1>\n"
+@output_buffer.concat "\n"
+ form_for(@post) do |f| ; @output_buffer.concat "\n"
+@output_buffer.concat "<form action=\"\" method=\"post\">\n"
+@output_buffer.concat "  "; @output_buffer.concat(( f.error_messages ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.label :PostID ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.PostID ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.label :title ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.text_field :title ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.submit 'Update' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+@output_buffer.concat "</form>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( link_to 'Show', @post ).to_s); @output_buffer.concat " |\n"
+@output_buffer.concat(( link_to 'Back', posts_path ).to_s); @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:57:in `compile'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:27:in `render'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:204:in `render_template'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:255:in `render'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:16:in `ms'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+C:/ironruby/lib/ironruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:16:in `ms'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `__send__'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+C:/ironruby/lib/ironruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `[]'
+C:/ironruby/lib/ironruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/ironruby/lib/ironruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/ironruby/lib/ironruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+C:/ironruby/lib/ironruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/ironruby/lib/ironruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:44:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/ironruby/lib/ironruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/ironruby/lib/ironruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+IronRuby.Libraries:0:in `RubyThreadStart'
+IronRuby.Libraries:0:in `<CreateThread>b__0'
+mscorlib:0:in `ThreadStart_Context'
+mscorlib:0:in `Run'
+mscorlib:0:in `ThreadStart'
+
+ActionView::TemplateError (syntax error, unexpected ENSURE, expecting END) in app/views/posts/edit.html.erb:
+
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (432.6ms)
+Rendered rescues/_request_and_response (11.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-03-20 20:45:54) [GET]
+  Parameters: {"id"=>"1"}
+Rendering posts/edit
+
+ActionView::TemplateError (undefined method `fixnum_path' for #<ActionView::Base:0x0006760>) on line #4 of app/views/posts/edit.html.erb:
+1: <h1>Editing post</h1>
+2: 
+3: <% form_for(@post.PostID) do |f| %>
+4:   <%= f.error_messages %>
+5:   <p>
+6:     <%= f.label :PostID %><br />
+7:     <%= f.PostID %>
+
+    app/views/posts/edit.html.erb:4
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (474.6ms)
+Rendered rescues/_request_and_response (7.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-03-20 20:46:07) [GET]
+  Parameters: {"id"=>"1"}
+Rendering posts/edit
+
+ActionView::TemplateError (undefined method `fixnum_path' for #<ActionView::Base:0x0006e7a>) on line #4 of app/views/posts/edit.html.erb:
+1: <h1>Editing post</h1>
+2: 
+3: <% form_for(@post.PostID) do |f| %>
+4:   <%= f.error_messages %>
+5:   <p>
+6:     <%= f.label :PostID %><br />
+7:     <%= f.PostID %>
+
+    app/views/posts/edit.html.erb:4
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (570.3ms)
+Rendered rescues/_request_and_response (7.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-03-20 20:46:23) [GET]
+  Parameters: {"id"=>"1"}
+Rendering posts/edit
+
+ActionView::TemplateError (undefined method `n_hib_data_access_post_path' for #<ActionView::Base:0x0007542>) on line #6 of app/views/posts/edit.html.erb:
+3: 
+4: 
+5: <%= link_to 'Show', @post %> |
+6: <%= link_to 'Back', posts_path %>
+
+    app/views/posts/edit.html.erb:6
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (484.4ms)
+Rendered rescues/_request_and_response (3.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-03-20 20:46:28) [GET]
+  Parameters: {"id"=>"1"}
+Rendering posts/edit
+
+ActionView::TemplateError (undefined method `n_hib_data_access_post_path' for #<ActionView::Base:0x0007c26>) on line #6 of app/views/posts/edit.html.erb:
+3: 
+4: 
+5: <%= link_to 'Show', @post %> |
+6: <%= link_to 'Back', posts_path %>
+
+    app/views/posts/edit.html.erb:6
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (464.8ms)
+Rendered rescues/_request_and_response (3.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-03-20 20:48:07) [GET]
+  Parameters: {"id"=>"1"}
+Rendering posts/edit
+
+ActionView::TemplateError (undefined method `n_hib_data_access_post_path' for #<ActionView::Base:0x0008300>) on line #18 of app/views/posts/edit.html.erb:
+15:   </p>
+16: 
+17: <%= link_to 'Show', @post %> 
+
+    app/views/posts/edit.html.erb:18
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (480.5ms)
+Rendered rescues/_request_and_response (3.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-03-20 20:48:36) [GET]
+  Parameters: {"id"=>"1"}
+Rendering posts/edit
+Completed in 136ms (View: 89, DB: 0) | 200 OK [http://localhost/posts/1/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-20 20:48:41) [GET]
+
+ActionController::RoutingError (No route matches "/posts/1/posts/show/1" with {:method=>:get}):
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-03-20 20:48:50) [GET]
+  Parameters: {"id"=>"1"}
+Rendering posts/edit
+Completed in 145ms (View: 70, DB: 0) | 200 OK [http://localhost/posts/1/edit]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-03-20 20:48:53) [GET]
+  Parameters: {"id"=>"1"}
+Rendering posts/show
+Completed in 133ms (View: 58, DB: 0) | 200 OK [http://localhost/posts/show/1]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-03-20 20:48:58) [GET]
+Rendering posts/index
+Completed in 216ms (View: 111, DB: 0) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2010-03-20 20:49:08) [GET]
+Rendering posts/new
+
+ActionView::TemplateError (undefined method `n_hib_data_access_post_path' for #<ActionView::Base:0x0008e22>) on line #4 of app/views/posts/new.html.erb:
+1: <h1>New post</h1>
+2: 
+3: <% form_for(@post) do |f| %>
+4:   <%= f.error_messages %>
+5: 
+6:   <p>
+7:     <%= f.label :title %><br />
+
+    app/views/posts/new.html.erb:4
+    app/controllers/posts_controller.rb:36:in `new'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    IronRuby.Libraries:0:in `RubyThreadStart'
+    IronRuby.Libraries:0:in `<CreateThread>b__0'
+    mscorlib:0:in `ThreadStart_Context'
+    mscorlib:0:in `Run'
+    mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (520.5ms)
+Rendered rescues/_request_and_response (4.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#new (for 127.0.0.1 at 2010-03-20 20:49:51) [GET]
+Rendering posts/new
+Completed in 102ms (View: 84, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2010-03-20 20:50:24) [GET]
+Rendering posts/new
+Completed in 50ms (View: 22, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-03-20 20:50:36) [GET]
+Rendering posts/index
+Completed in 193ms (View: 86, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-20 20:50:52) [GET]
+
+ActionController::RoutingError (No route matches "/show/2" with {:method=>:get}):
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  :0:in `lambda_method'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:16707566:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-20 20:50:57) [GET]
+
+ActionController::RoutingError (No route matches "/show/1" with {:method=>:get}):
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  :0:in `lambda_method'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:16707566:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-03-20 20:51:11) [GET]
+Rendering posts/index
+Completed in 174ms (View: 84, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-03-20 20:51:14) [GET]
+  Parameters: {"id"=>"2"}
+Rendering posts/show
+Completed in 113ms (View: 39, DB: 0) | 200 OK [http://localhost/posts/show/2]

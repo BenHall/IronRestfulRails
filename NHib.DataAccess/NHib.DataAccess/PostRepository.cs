@@ -35,11 +35,44 @@ namespace NHib.DataAccess
             return post;
         }
 
-        public void Insert(Post post)
+        public bool Insert(Post post)
         {
-            ISession session = sessionFactory.OpenSession();
-            session.SaveOrUpdate(post);
-            session.Close();
+            ITransaction transaction = null;
+
+            try
+            {
+                ISession session = sessionFactory.OpenSession();
+                transaction = session.BeginTransaction();
+                session.SaveOrUpdate(post);
+                transaction.Commit();
+                session.Close();
+                return true;
+            }
+            catch (System.Exception)
+            {
+                if (transaction != null) transaction.Rollback();
+                return false;
+            }
+        }
+
+        public bool Delete(Post post)
+        {
+            ITransaction transaction = null;
+
+            try
+            {
+                ISession session = sessionFactory.OpenSession();
+                transaction = session.BeginTransaction();
+                session.Delete(post);
+                transaction.Commit();
+                session.Close();
+                return true;
+            }
+            catch (System.Exception)
+            {
+                if (transaction != null) transaction.Rollback();
+                return false;
+            }
         }
     }
 }

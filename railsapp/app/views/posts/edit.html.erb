@@ -1,0 +1,15 @@
+<h1>Editing post</h1>
+
+  <p>
+    PostID: <br />
+    <%= @post.PostID %>
+  </p>
+  <p>
+    Title: <br />
+    <input type="text" value="<%= @post.Title %>"/>
+  </p>
+  <p>
+    <input type="submit" value="Update"/>
+  </p>
+
+<a href="/posts/show/<%= @post.PostID %>">Show</a>

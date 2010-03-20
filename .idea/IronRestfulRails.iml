@@ -15,6 +15,7 @@
         <dependency name="rails" version="0" bound="GREATER_OR_EQUAL" />
       </requirement>
       <source from="config/boot.rb" />
+      <source from="railsapp2/config/boot.rb" />
     </requirement>
     <requirement>
       <requirement>
