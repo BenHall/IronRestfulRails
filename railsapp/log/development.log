@@ -356,3 +356,139 @@ Rendering rescues/layout (internal_server_error)
 
 Processing PostsController#index to json (for 127.0.0.1 at 2010-03-20 19:22:00) [GET]
 Completed in 4495ms (View: 658, DB: 0) | 200 OK [http://localhost/posts/index.json]
+
+
+Processing PostsController#index to ruby_json (for 127.0.0.1 at 2010-03-20 19:28:46) [GET]
+
+ActionView::MissingTemplate (Missing template posts/index.erb in view path app/views):
+  app/controllers/posts_controller.rb:17:in `index'
+  app/controllers/posts_controller.rb:13:in `index'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index to ruby_json (for 127.0.0.1 at 2010-03-20 19:30:42) [GET]
+
+ActionView::MissingTemplate (Missing template posts/index.erb in view path app/views):
+  app/controllers/posts_controller.rb:24:in `index'
+  app/controllers/posts_controller.rb:20:in `index'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index to ruby_json (for 127.0.0.1 at 2010-03-20 19:30:52) [GET]
+
+ActionView::MissingTemplate (Missing template posts/index.erb in view path app/views):
+  app/controllers/posts_controller.rb:24:in `index'
+  app/controllers/posts_controller.rb:20:in `index'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index to ruby_json (for 127.0.0.1 at 2010-03-20 19:31:31) [GET]
+
+ActionView::MissingTemplate (Missing template posts/index.erb in view path app/views):
+  app/controllers/posts_controller.rb:24:in `index'
+  app/controllers/posts_controller.rb:20:in `index'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index to ruby_json (for 127.0.0.1 at 2010-03-20 19:33:30) [GET]
+
+ActionView::MissingTemplate (Missing template posts/index.erb in view path app/views):
+  app/controllers/posts_controller.rb:19:in `index'
+  app/controllers/posts_controller.rb:15:in `index'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index to ruby_json (for 127.0.0.1 at 2010-03-20 19:35:43) [GET]
+
+ActionView::MissingTemplate (Missing template posts/index.erb in view path app/views):
+  app/controllers/posts_controller.rb:19:in `index'
+  app/controllers/posts_controller.rb:15:in `index'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index to json (for 127.0.0.1 at 2010-03-20 19:37:31) [GET]
+Completed in 3961ms (View: 207, DB: 0) | 200 OK [http://localhost/posts/index.json]
+
+
+Processing PostsController#index to ruby_json (for 127.0.0.1 at 2010-03-20 19:38:59) [GET]
+Completed in 4615ms (View: 192, DB: 0) | 406 Not Acceptable [http://localhost/posts/index.ruby_json]
+
+
+Processing PostsController#index to json (for 127.0.0.1 at 2010-03-20 19:39:04) [GET]
+
+NameError (uninitialized constant Newtonsoft):
+  app/controllers/posts_controller.rb:8:in `to_json'
+  C:2:in `__send__'
+  C:2:in `encode'
+  app/controllers/posts_controller.rb:21:in `index'
+  app/controllers/posts_controller.rb:18:in `index'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ironruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ironruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  IronRuby.Libraries:0:in `RubyThreadStart'
+  IronRuby.Libraries:0:in `<CreateThread>b__0'
+  mscorlib:0:in `ThreadStart_Context'
+  mscorlib:0:in `Run'
+  mscorlib:0:in `ThreadStart'
+
+Rendered rescues/_trace (648.4ms)
+Rendered rescues/_request_and_response (133.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index to json (for 127.0.0.1 at 2010-03-20 19:41:15) [GET]
+Completed in 5527ms (View: 454, DB: 0) | 200 OK [http://localhost/posts/index.json]

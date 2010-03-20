@@ -1,8 +1,14 @@
 require 'mscorlib'
 require 'System'
 require 'NHib.DataAccess.dll'
+require 'Newtonsoft.Json'
 PostRepository = NHib::DataAccess::PostRepository
 
+class System::Object
+  def to_json(encoding)
+    Newtonsoft::Json::JsonConvert.SerializeObject(self)
+  end
+end
 
 class PostsController < ApplicationController
   # GET /posts
